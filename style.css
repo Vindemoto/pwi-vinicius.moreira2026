@@ -1,0 +1,36 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252525;
+    padding: 15px 30px;
+}
+.logo{
+    color: #FFD700;
+    font-size: 24px;
+    font-weight: bold;
+}
+.menu-link{
+    text-decoration: none;
+    display: flex;
+    gap: 25px;
+}
+.menu-link a{
+    text-decoration: none;
+    color: #FFD700;
+    font-size: 32px;
+    transition: 0.3s
+}
+.menu-link a:hover{
+    color: red;
+}
+.menu-link .ativo{
+    color: #FFD700;
+    font-weight: bold;
+}
+nav{
+    text-align: center;
+}
+table{
+    text-align: center;
+}
